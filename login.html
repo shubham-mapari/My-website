@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <title>Log-in</title>
+    <style>
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center
+        }
+        .log{
+            border-radius: 25px;
+            margin-top: 60px;
+            height: 440px;
+            width: 400px;
+            background-color: rgb(166, 157, 175);
+
+        }
+        #user{
+            margin-left: 140px;
+            margin-top: 20px;
+            height: 110px;
+            align-items: center;
+        }
+        #id{
+             margin-left: 140px;
+        }
+        #input{
+            margin-left: 73px;
+            font-size: 20px;
+        }
+        #button{
+            margin-top: 30px;
+            margin-left: 150px;
+            font-size: 25px;
+            background-color: black;
+            color: white;
+            border-radius: 25px;
+        }
+        #not{
+            margin-left: 90px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="log">
+        <div id="box">
+            <img src="user.svg" id="user" >
+            <h3 id="id">USERNAME</h3>
+            <input type="text" id="input" placeholder="abc@gmail.com">
+            <h3 id="id">PASSSWORD</h3>
+            <input type="password" id="input" placeholder="Enter password">
+        </div>
+        <button id="button">LOGIN</button>
+        <p id="not">Not Registered?<a href="http://127.0.0.1:5500/Django/workshop/templates/HTML/newapp.html">Create an account</a></p>
+        
+    </div>
+    
+</body>
+</html>

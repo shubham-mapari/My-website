@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+
+    <style>
+        body{        
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(59, 66, 63);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .First{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            height: 60px;
+            width: 1200px;
+            background-color: black;
+            text-align: center;
+            border-radius: 25px;
+        }
+        #clr{
+
+            color: azure;
+            margin-top: 18px;
+            line-height-step: 2px;
+            
+        }
+   
+        .intro {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center; 
+            height: 500px;
+            gap: 50px;
+        }
+
+        .profile-img {
+            height: 500px;
+            width: 500px;
+            border-radius: 50%; 
+            gap: 30px;
+        }
+        .text{
+           color: azure;
+           text-align: center;
+           margin-top: 100px;
+           gap: 100px;
+        }
+        #linked{
+            width: 30px;
+            background-color: azure;
+            margin-top: 17px;
+        }
+        #github{
+            width: 30px;
+            background-color: azure;
+            margin-top: 17px;
+        }
+        #facebook{
+            width: 30px;
+            background-color: azure;
+            margin-top: 17px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="First">   
+        <a href="http://127.0.0.1:5500/Django/workshop/templates/HTML/myport.html" target="_blank" id="clr">HOME</a>
+        <p>HTML&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;fun!</p>
+        <a href="http://127.0.0.1:5500/Django/workshop/templates/HTML/Experi.html" target="_blank" id="clr">EXPERIENCE</a>P
+        <p>HTML&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;fun!</p>
+        <a href="http://127.0.0.1:5500/Django/workshop/templates/HTML/Skills.html" target="_blank" id=clr>SKILLS</a>
+        <p>HTML&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;fun!</p>
+
+        <a href="" id="clr">GET IN TOUCH</a>
+        <p>HTML&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;fun!</p>
+        <a href="https://www.linkedin.com/in/shubham-mapari-854319290/" target="_blank"><img src="linked.svg" id="linked"></a>
+        <p>HTML&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;fun!</p>
+        <a href="https://github.com/shubham-mapari" target="_blank"><img src="github.svg" alt="Github" id="github"></a>
+        <p>HTML&nbsp;&nbsp;&nbsp;is&nbsp;&nbsp;&nbsp;fun!</p>
+        <a href="https://www.facebook.com/shubham.mapari.7771/ " target="_blank"><img src="facebook.svg" alt="Facebook" id="facebook"></a>
+        </div>
+        <section id="contact">
+            <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Get in Touch</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(59, 66, 63);
+      margin: 0;
+      padding: 0;
+    }
+
+    section#contact {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    #contact h2 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    #contact p {
+      text-align: center;
+      color: #555;
+      margin-bottom: 30px;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    button {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      background: #007bff;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    button:hover {
+      background: #0056b3;
+    }
+
+    .contact-info {
+      margin-top: 25px;
+      text-align: center;
+      font-size: 16px;
+      color: #444;
+    }
+
+    .contact-info a {
+      color: #007bff;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+
+    .social-links {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .social-links a {
+      display: inline-block;
+      margin: 0 10px;
+      text-decoration: none;
+      color: #fff;
+      background: #333;
+      padding: 10px 15px;
+      border-radius: 50px;
+      transition: 0.3s;
+    }
+
+    .social-links a:hover {
+      background: #007bff;
+    }
+  </style>
+</head>
+<body>
+
+<section id="contact">
+  <h2>Get in Touch</h2>
+  <p>I’d love to hear from you! Whether it’s a project, job opportunity, or just a hello 👋</p>
+
+  <form>
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <input type="text" name="subject" placeholder="Subject">
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+
+  <div class="contact-info">
+    <p>Email: <a href="mailto:maparishubham23@gmail.com">maparishubham23@gmail.com</a></p>
+    <p>Location: Kolhapur, India</p>
+  </div>
+
+  <div class="social-links">
+    <a href="www.linkedin.com/in/shubham-mapari-854319290" target="_blank">LinkedIn</a>
+    <a href="https://github.com/shubham-mapari" target="_blank">GitHub</a>
+    <a href="https://www.facebook.com/shubham.mapari.7771" target="_blank">Facebook</a>
+  </div>
+</section>
+
+</body>
+</html>
+
+
+       
+    </nav>
+</body>
+</html>
